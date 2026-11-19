@@ -1,0 +1,25 @@
+# CalliopeZED: keep each user's own files out of the public program.
+# `python3 zed.py init` writes the first four; the program never needs them in git.
+
+# Who you are and what you've recorded
+zed_config.json
+calliope_state.json
+CALLIOPE_DATA.md
+personas/REGISTRY.md
+
+# Release package: carries your state and session file (your backup, never public)
+calliope_release.zip
+calliope_release.zip.tmp
+
+# Your documents and private data
+snapshots/
+briefs/
+STUDYBOOK/
+health/
+calliope_archive.json
+
+# Python and editor clutter
+__pycache__/
+*.pyc
+*.tmp
+.claude/settings.local.json
